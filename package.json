@@ -2,13 +2,16 @@
   "name": "talkr-api",
   "version": "1.0.0",
   "description": "API part of Talkr",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthew Webb <matthewowebb@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^13.5.0"
+    "hapi": "^13.5.0",
+    "joi": "^9.0.1",
+    "pg": "^6.0.2",
+    "validator": "^5.4.0"
   }
 }
